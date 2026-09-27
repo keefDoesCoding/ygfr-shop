@@ -1,0 +1,12 @@
+{
+  "name": "your-girls-favourite-resellers",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Online shop for Your Girls Favourite Resellers. No dependencies: Vercel Functions, Upstash Redis REST and the Stripe API.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node dev/server.js",
+    "test": "node dev/e2e.mjs"
+  }
+}
